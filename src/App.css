@@ -1,0 +1,17 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: .1em 2em;
+    align-items: center;
+
+}
+
+header div ul{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+header div ul a{
+    cursor: pointer;
+    text-decoration: none;
+}
