@@ -2,19 +2,9 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { useState } from "react";
 
-function Nav({}) {
+function Nav() {
   const [isUserLoggedIn, setIsUserLoggedIn] = useState(true);
   const [count, setCount] = useState(1);
-
-  function increase() {
-    setCount(count + 1);
-  }
-  function decrease() {
-    if (count === 1) {
-      return;
-    }
-    setCount(count - 1);
-  }
 
   return (
     <header>
